@@ -20,7 +20,7 @@ setup(
     install_requires=[
         'Flask>=0.9',
         'OmMongo',
-        'pymongo==2.8.1',
+        'pymongo>=2.8.1',
     ],
     classifiers=[
         'Environment :: Web Environment',
