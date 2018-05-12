@@ -8,11 +8,11 @@ from setuptools import setup
 
 setup(
     name='Flask-OmMongo',
-    version='1.0',
-    url='http://bapakode.org/flask-ommongo',
+    version='1.1',
+    url='https://github.com/bapakode/Flask-OmMongo',
     license='BSD',
     author='Bapakode Open Source',
-    author_email='opensource@bapakode.org',
+    author_email='opensource@bapakode.com',
     description='Add Flask support for MongoDB using OmMongo.',
     packages=['flask_ommongo'],
     zip_safe=False,
