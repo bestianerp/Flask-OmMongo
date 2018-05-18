@@ -6,14 +6,18 @@
 
 from setuptools import setup
 
+LONG_DESCRIPTION = open('README.md', 'r').read()
+
 setup(
     name='Flask-OmMongo',
-    version='1.1',
+    version='1.1.1',
     url='https://github.com/bapakode/Flask-OmMongo',
     license='BSD',
     author='Bapakode Open Source',
     author_email='opensource@bapakode.com',
     description='Add Flask support for MongoDB using OmMongo.',
+	long_description=LONG_DESCRIPTION,
+	long_description_content_type='text/markdown',
     packages=['flask_ommongo'],
     zip_safe=False,
     platforms='any',
@@ -21,6 +25,7 @@ setup(
         'Flask>=0.9',
         'OmMongo',
         'pymongo>=2.8.1',
+		'pytz'
     ],
     classifiers=[
         'Environment :: Web Environment',
